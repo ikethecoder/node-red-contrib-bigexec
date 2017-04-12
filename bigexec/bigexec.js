@@ -190,8 +190,8 @@ module.exports = function(RED) {
           msg.control.state = 'standalone';
         }
         
-        msg.control = msg.control || {};
-        msg.topic = 'blah';
+        //msg.control = msg.control || {};
+        //msg.topic = 'blah';
           
         bignode.main.call(bignode, msg);
       })
