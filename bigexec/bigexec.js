@@ -191,7 +191,7 @@ module.exports = function(RED) {
         }
         
         //msg.control = msg.control || {};
-        //msg.topic = 'blah';
+        msg.topic = 'blah';
           
         bignode.main.call(bignode, msg);
       })
